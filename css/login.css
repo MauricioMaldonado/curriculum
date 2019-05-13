@@ -1,0 +1,12 @@
+img{
+    width: 100px;
+    height: 30px;
+}
+.contenedor{
+    width: 400px;
+    height: 500px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    margin: 100px auto;
+    text-align: center;    
+}

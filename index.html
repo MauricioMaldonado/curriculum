@@ -1,0 +1,313 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mauricio Maldonado</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" /> <!-- css del mapa gratis, antes de main--> 
+  <link rel="stylesheet" href="css/main.css">
+
+
+  <meta name="theme-color" content="#fafafa">
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script> <!-- js del mapa gratis, antes de main -->
+  <script src="js/main.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+</head>
+
+<body>
+  
+  <nav class="menu">
+    <div class="titulo-menu">
+        <h3 class="titulo">Mauricio Maldonado</h2>
+    </div>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Conferencias</a></li>
+      <li><a href="#">Calendario</a></li>
+      <li><a href="#">Invitados</a></li>
+      <li><a href="registro.html" class="active">Reservaciones</a></li>
+    </ul>
+
+  </nav>
+  
+  <header class="site-header">
+    <div class="hero">
+      <!--se pueden poner cosas sobre la foto
+      <div class="contenido-header">
+        <nav class="redes-sociales">
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+          <a href="#"><i class="fab fa-pinterest-square"></i></a>
+          <a href="#"><i class="fab fa-youtube-square"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </nav>
+        <div class="informacion-evento">
+          <p class="fecha"><i class="fas fa-calendar-alt"></i>20-02-2019</p>
+          <p class="ciudad"><i class="fas fa-map-marker-alt"></i>Santiago, Chile</p>
+          
+          <h1 class="nombre-sitio">GdlWebCamp</h1>
+          <p class="slogan">La mejor conferencia de <span>Diseño Web</span></p>
+        </div> <!-- información evento-->
+      </div>
+      -->
+    </div>
+  </header>
+
+  <section class="seccion contenedor">
+    <h2>Objetivo</h2>
+    <p>Poder crecer como profesional de la informática, de esta forma podré colaborar también con el correcto funcionamiento de la compañía gracias a buenas prácticas.</p>
+  </section> <!-- fin seccion conferencia-->
+
+  <section class="cv">
+    <div class="contenedor-video">
+      <video autoplay loop poster="img/bg-talleres.jpg">
+        <source src="video/video.mp4" type="video/mp4">
+        <source src="video/video.webm" type="video/webm">
+        <source src="video/video.ogv" type="video/ogg">
+      </video>
+    </div>
+    <div class="contenido-cv">
+      <div class="contenedor">
+        <div class="datos-cv">
+          <h2>mauricio iván maldonado bahamonde</h2>
+          <nav class="titulo-datos">
+            <h3>datos personales</h3>
+          </nav>
+          <div id="talleres" class="info-curso ocultar clearfix">
+            <div class="detalle-evento">
+              <h3>Ingeniería en informática y multimedia</h3>
+              <p><i class="fas fa-circle"></i> CELULAR: +569 56061944</p>
+              <p><i class="fas fa-circle"></i> EMAIL: mauricio.maldonado@uniacc.edu</p>
+              <p><i class="fas fa-circle"></i> FECHA DE NACIMIENTO: 23 de Marzo de 1987</p>
+              <p><i class="fas fa-circle"></i> DIRECCIÓN: Pasaje cullipeumo 1889, Maipú</p>
+              <p><i class="fas fa-circle"></i> DISPONIBILIDAD: inmediata</p>
+            </div>
+          </div>
+        </div>
+        <div class="datos-cv">
+            <nav class="titulo-datos">
+              <h3>FORMACIÓN ACADÉMICA</h3>
+            </nav>
+            <div id="talleres" class="info-curso ocultar clearfix">
+              <div class="detalle-evento">
+                <h3>Ingeniería en informática y multimedia</h3>
+                <p><i class="fas fa-circle"></i>Universidad UNIACC</p>
+                <h3>Enseñanza básica y media</h3>
+                <p><i class="fas fa-circle"></i>Complejo educacional Maipú</p>
+              </div>
+            </div>
+          </div>
+          <div class="datos-cv">
+            <nav class="titulo-datos">
+              <h3>EXPERIENCIA LABORAL</h3>
+            </nav>
+            <div id="talleres" class="info-curso ocultar clearfix">
+              <div class="detalle-evento">
+                <h3>JEFE DE OFICINA - 2018-ACTUALIDAD</h3>
+                <p><i class="fas fa-circle"></i>CHILEXPRESS SA</p>
+                <h3>OPERADOR COMERCIAL - 2015-2018</h3>
+                <p><i class="fas fa-circle"></i>CHILEXPRESS</p>
+                <h3>CONTROL DE CALIDAD - 2014-2015</h3>
+                <p><i class="fas fa-circle"></i>INPPA SA</p>
+                <h3>ENCARGADO DE FACTURACIÓN Y LOGÍSTICA EN BODEGA - 2013-2014</h3>
+                <p><i class="fas fa-circle"></i>INPPA SA</p>
+                <h3>OPERADOR CARGA Y DESCARGA GLP GRANEL - 2011-2013</h3>
+                <p><i class="fas fa-circle"></i>ABASTIBLE SA</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>  <!-- fin program-->
+
+  <section class="invitados">
+    <div class="contenedor">
+      <h2>habilidades</h2>
+      <div class="contenido-invitados">
+        <div class="invitado">
+            <img src="img/css3.jpg" alt="invitado1">
+            <h4>CSS3 grid</h4>
+        </div>
+        <div class="invitado">
+            <img src="img/js.jpg" alt="invitado2">
+            <h4>Javascript</h4>
+        </div>
+        <div class="invitado">
+            <img src="img/html5.jpg" alt="invitado3">
+            <h4>HTML5</h4>
+        </div>
+        <div class="invitado">
+            <img src="img/JQUERY.JPG" alt="invitado4">
+            <h4>JQUERY</h4>
+        </div>
+        <div class="invitado">
+            <img src="img/ANDROIDSTUDIO.JPG" alt="invitado5">
+            <h4>PROGRAMACIÓN EN ANDROID</h4>
+        </div>
+        <div class="invitado">
+            <img src="img/PMBOK.JPG" alt="invitado6">
+            <h4>GESTIÓN DE PROYECTOS EN PMBOK</h4>
+        </div>
+        <div class="invitado">
+            <img src="img/SQLBI.JPG" alt="invitado7">
+            <h4>Suite MS SQLSERVER BI 2012</h4>
+        </div>
+        <div class="invitado">
+            <img src="img/PS.JPG" alt="invitado7">
+            <h4>ADOBE PHOTOSHOP</h4>
+        </div>
+        <div class="invitado">
+            <img src="img/PHP.JPG" alt="invitado7">
+            <h4>PHP</h4>
+        </div>
+        <div class="invitado">
+            <img src="img/FILMORA.png" alt="invitado7">
+            <h4>WONDERSHARE FILMORA</h4>
+        </div>
+        <div class="invitado">
+            <img src="img/SCRUM.JPG" alt="invitado7">
+            <h4>METODOLOGÍA ÁGIL: SCRUM</h4>
+        </div>
+        <div class="invitado">
+            <img src="img/UML.JPG" alt="invitado7">
+            <h4>UML</h4>
+        </div>
+
+
+      </div>
+    </div>
+  </section> <!-- fin invitados-->
+
+  <section class="contador parallax">
+    <div class="contenedor">
+      <ul class="resumen-evento">
+        <li><H4 class="numero">ESPAÑOL</H4><H3>nativo</H3></li>
+        <li><H4 class="numero">INGLÉS</H4><H3>Intermedio B2</H3></li>
+        <li><p class="numero">idiomas</p></li>
+      </ul>
+  </div>
+  </section> <!-- fin resumen evento -->
+
+  <section class="precios contenedor">
+    <div class="contenedor">
+      <h2>Áreas de interés</h2>
+      <div class="contenido-precios">
+        <div class="tabla-precio">
+          <h3>DESARROLLO WEB</h3>
+          <p><span><i class="fas fa-laptop-code"></i></span></p>
+          <ul>
+            <li><i class="fas fa-check"></i>HTML5</li>
+            <li><i class="fas fa-check"></i>CSS3</li>
+            <li><i class="fas fa-check"></i>Javascript</li>
+            <li><i class="fas fa-check"></i>jQuery</li>
+          </ul>
+        </div>
+        <div class="tabla-precio">
+          <h3>DESARROLLO ANDROID</h3>
+          <p><span><i class="fab fa-android"></i></span></p>
+          <ul>
+            <li><i class="fas fa-check"></i>XML</li>
+            <li><i class="fas fa-check"></i>Javascript</li>
+            <li><i class="fas fa-check"></i>MVC</li>
+          </ul>
+        </div>
+        <div class="tabla-precio">
+          <H3>BUSINESS INTELLIGENCE</H3>
+          <p><span><i class="fas fa-chart-bar"></i></span></p>
+          <ul>
+            <li><i class="fas fa-check"></i>Suite MS SQLSERVER BI 2012</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section> <!-- fin precios-->
+
+  <div id="mapa" class="mapa">
+  </div> <!-- fin mapa -->
+
+  <section class="testimoniales">
+    <h2>OTROS DATOS DE INTERÉS</h2>
+    <div class="testimonios contenedor">
+        <div class="testimonio">
+          <div class="texto">
+            <i class="fas fa-quote-left"></i>
+            <p>Acostumbrado a trabajar bajo presión sin bajar la calidad del trabajo gracias a la experiencia en diversas áreas de trabajo donde mi gran habilidad de aprendizaje me ha dado las herramientas para absorber correctamente información y aplicarlas en momentos críticos.
+            </p>
+          </div>
+          <div class="autor">
+            <img src="img/MAURICIO.JPG" alt="imagen testimonial">
+            <p>Mauricio Iván Maldonado Bahamonde
+              <span>Ingeniería en informática y Multimedia</span>
+            </p>
+          </div>
+        </div>
+        
+        </div>
+    </div>
+  </section> <!-- fin testimoniales-->
+
+  <div class="newsletter parallax">
+    <div class="contenido contenedor">
+      <p>Mauricio Maldonado 2019</p>
+      <h3>Currículum Vitae</h3>
+      <a href="cv_maldonadoMauricio2018A.docx" class="button transparent">DESCARGAR CV</a>
+    </div>
+  </div>
+
+  
+  <footer class="site-footer">
+    <div class="contenido-footer contenedor">
+      <div class="informacion">
+        <h3>Sobre <span>Mauricio Maldonado</span></h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure atque porro voluptatibus velit ab repudiandae saepe a cumque quisquam dolore possimus sunt, beatae aliquid magni quas eligendi numquam suscipit. Maiores!
+
+        </p>
+      </div>
+      <div class="tweets">
+        <h3>Últimos <span>Tweets</span></h3>
+        <ul>
+          <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, esse <span>#tempora</span> asperiores ad ex iusto. </li>
+          <li>Lorem ipsum dolor sit amet consectetur, <span>#adipisicing</span> elit. Id, esse tempora asperiores ad ex iusto.</li>
+          <li>Lorem ipsum dolor sit amet <span>#consectetur</span>, adipisicing elit. Id, esse tempora asperiores ad ex iusto.</li>
+        </ul>
+      </div>
+      <div class="redes">
+          <h3>Redes <span>Sociales</span></h3>
+          <nav class="redes-sociales">
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+              <a href="#"><i class="fab fa-twitter-square"></i></a>
+              <a href="#"><i class="fab fa-youtube-square"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </nav>
+      </div>
+    </div>
+
+  </footer>
+
+  <p class="copyright">
+    Todos los derechos reservados Mauricio Maldonado 2019.
+  </p>
+
+</body>
+
+</html>

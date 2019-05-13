@@ -519,7 +519,7 @@ h3{
     margin-top: 1rem; 
 }
 .contador::before{
-    background-image: url(/img/bg-resumen.jpg);
+    background-image: url("../img/bg-resumen.jpg");
     content: '';
 }
 .parallax::before{
